@@ -49,14 +49,24 @@ header{
     margin-right: 20px;
 }
 
-.boxInput{
-  border: none;  
-  outline: none;
-  background-color: transparent;
-  padding-left: 18px;
-  color: white;
-  font-size: 17px;
-  &::placeholder{
-    color: white;
+.boxInput { 
+  border: none; 
+  outline: none; 
+  padding-left: 15px; 
+  padding-right: 0; 
+  flex: 1; height: 100%; 
+  background-color: transparent; 
+  border-radius: 15px; 
+  color: white; 
+  
+  &::placeholder { 
+    color: white; 
   }
-}
+} 
+
+  i { 
+      position: absolute;
+      right: 10px; 
+      color: white; 
+      font-size: 20px; 
+    }

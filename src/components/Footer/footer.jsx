@@ -12,15 +12,15 @@ export default function footer(){
             <section className={S.boxSocial}>
                 <h3>4002-8922</h3>
                 <nav>
-                    <a href="">  <img src={face} alt="" />  </a>
-                    <a href="">  <img src={twitt} alt="" />  </a>
-                    <a href="">  <img src={youtube} alt="" /> </a>
-                    <a href="">  <img src={linkedin} alt="" />  </a>
-                    <a href="">  <img src={insta} alt="" />  </a>
+                    <a href="https://www.facebook.com/" target='__blank'>  <img src={face} alt="Facebook" />  </a>
+                    <a href="https://x.com/" target='__blank'>  <img src={twitt} alt="Twitter" />  </a>
+                    <a href="https://www.youtube.com/" target='__blank'>  <img src={youtube} alt="YouTube" /> </a>
+                    <a href="www.linkedin.com/in/vitoriagomes4" target='__blank'>  <img src={linkedin} alt="LinkedIn" />  </a>
+                    <a href="https://www.instagram.com/vittech4.0/" target='__blank'>  <img src={insta} alt="Instagram" />  </a>
                 </nav>
             </section>
             <section className={S.boxTexto}>
-              <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
+            <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </section>
         </footer>
     )
